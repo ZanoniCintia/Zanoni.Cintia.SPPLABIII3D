@@ -1,0 +1,99 @@
+*{
+    /*margin: 0;*/
+    box-sizing: border-box;
+    font-family: "la q elegi",sans-serif,serif,monospace;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+p,h1{
+    background-color: rgb(250, 34, 160);
+}
+
+p{  
+    text-transform: capitalize ;/*primera letra de cada palabra mayuscula*/
+    /*width: 200px;
+    height: 200px;*/
+    padding: 10px;
+    padding-left: 100px;
+    padding: 10px 50px;
+    border: 2px solid red;
+    margin: 30px;
+    margin-left: -50px;
+    transition: margin-left 5s;
+}
+
+#miParrafo{
+    background-color: yellow;
+}
+
+a[href*="Google"]{
+    text-decoration: none;
+}
+/*otra manera de dar referencia, todos los a q estan dentro de un div*/
+div a{
+    text-decoration: none;
+    color: rgb(0, 32, 214);
+}
+
+/*hijos directos de div
+div>a{
+    text-decoration: none;
+    color: violet;
+}*/
+
+/*tamaño del div*/
+div{
+    width: 100vw;/*un ancho estatico*/ /*min-width:se adapta al tamaño de la pantalla ;*/
+    height: 100px;
+    background-color: thistle;
+    background-image: url(../css/img/foto.jpg);/*agrega imagen*/
+    /*background-repeat: no-repeat;no la repite*/
+    background-position: center;/*queda centrada*/
+    background-size: cover;/*saca los bordes, si se pone esto no hace falta el repeat*/
+}
+
+/*
+html{
+    font-size:  32px;
+}*/
+
+p::first-letter{/*pseudo elemento*/
+    text-transform: capitalize;
+}
+
+p:hover{/*posicionarse sobre el elemento*/
+    background-color: seagreen;
+    margin-left: 0px;
+}
+li{
+    list-style-type: none;/*saca el punto de inicio*/
+    background-color: slategrey;
+    display: inline;/*saca salto de linea*/
+    padding: 10px 20px;
+    cursor: pointer;/*para q todo funcione como boton*/
+    border-radius: 5px;/*bordes redondeados*/
+    margin-right: 15px/*distancia*/;
+}
+
+li:hover{
+    background-color: chartreuse;/*cambia de color cuando me posiciono*/
+}
+
+li a{
+    text-decoration: none;
+    color: blue;
+    text-align: center;/*para centrar*/
+}
+
+@font-face{
+    font-family: "Arial";
+    src: url(../font/fuenteqbaje);
+}
+

@@ -1,0 +1,9 @@
+Es la forma de fusionar celdas en una tabla.
+
+Rowspan: indica el número de filas que ocupará la celda. Por defecto ocupa una sola fila.
+
+Colspan: indica el número de columnas que ocupará la celda. Por defecto ocupa una sola columna.
+
+De esta forma si ponemos <td colsan=2>, quiere decir que la celda actual se extiende en el ancho de dos celdas.
+
+Algo parecido ocurre si ponemos <td rowspan=3>, la celda ocupará el alto de 3 celdas normales.

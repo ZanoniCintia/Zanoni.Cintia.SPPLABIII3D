@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            padding: 20px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        div{
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 30px;
+        }
+        </style>
+</head>
+<body>
+    <div>
+        <table>
+         <tbody>
+            <tr>
+            <th colspan="3">A</th> <!--th escribe en negrita y esta centrado , es para encabezado-->
+            <th>B</th>
+            </tr>
+
+            <tr>
+                <th>C</td> <!--td es regular y esta alineado a la derecha de la columna-->
+                <th colspan="2">D</th>
+                <th>E</th>
+            </tr>
+       
+            <tr> <!--cada fila es un tr-->
+              <th colspan="4">F</th>
+            </tr>
+     
+            <tr>
+                <th>G</th>
+                <th>H</th>
+                <th>I</th>
+                <th>J</th>
+            </tr>
+
+         </tbody>   
+            
+        </table>
+    </div>
+
+    <div>
+        <table>
+           <tr>
+            <td>A</td>
+            <td>B</td>
+            <td rowspan="3">C</td>
+            <td>D</td>
+           </tr> 
+
+           <tr>
+           <td rowspan="2">E</td>
+           <td>F</td>
+           <td rowspan="3">G</td>
+            </tr>
+
+           <tr>
+            <td>H</td>
+           </tr>
+
+           <tr>
+            <td>I</td>
+            <td>J</td>
+            <td>K</td>
+
+           </tr>
+
+
+        </table>
+
+    </div>
+   
+</body>
+</html>

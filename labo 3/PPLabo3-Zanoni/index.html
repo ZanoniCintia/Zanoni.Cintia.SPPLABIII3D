@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./js/scripts.js"  type= "module"  ></script>
+    <title>Parcial</title>
+</head>
+<body>
+
+    <header class="header"> 
+        <div class="container logo-nav-container"> 
+        <img src="./imagenes/miLogo.jfif" alt="" class="imagen">
+        
+            <nav class="navigation">
+                <ul>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Anuncios</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<form>
+        <div class="container">
+            <h1>ADMINISTRACION</h1>    
+        </div> 
+        <div class="imagen">
+            <img src="./imagenes/negro.jpg"  width="1300" height="150">
+        </div>       
+        <br>      
+        <section>
+            <div>
+            <fieldset class="container menu">
+                <legend>Informacion Del Anuncio</legend>
+                <label>TITULO:</label>
+                <label>
+                    <input type="text" value="Titulo" class="fondo" id="txtTitulo" name="titulo" required>
+                </label>
+                <br>
+
+                    <label>TRANSACCION:</label>
+                <label class="rdov">
+                    <input type="radio" name="gender" id="rdov" value="venta" checked>Venta    
+               </label>
+               <label class="rdoa">
+                    <input type="radio" name="gender" id="rdoa" value="alquiler">Alquiler
+            </label>
+                <br>
+                    
+
+                    <label>DESCRIPCION:</label>
+                <label>
+                    <input type="text" value="Descripcion" class="fondo1" id="txtDescripcion" name="descripcion" required>
+                </label>
+                <br>
+                
+                <label>PRECIO:</label>
+                <label>
+                    <input type="text" value="Precio" class="fondo2" id="txtPrecio" name="precio" required>
+                </label>
+                <br>
+
+                <i class="fas fa-car-alt" id="icon"></i><input type="number" name="num_puertas" id="num_puertas" placeholder="Puertas" required>
+
+                <i class="fas fa-tachometer-alt" id="icon"></i><input type="number" name="num_kms" id="num_kms" placeholder="KMs" required>
+
+                <i class="fas fa-charging-station" id="icon"></i><input type="number" name="num_potencia" id="num_potencia" placeholder="Potencia" required>
+
+                
+               
+                
+
+            </fieldset>
+        </div>
+    </section>
+</form>    
+    <footer class="footer">
+        <div class="container footer-container">
+            <nav class="navigation">
+                <ul>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Anuncios</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <a href="#" class="derechos">Derechos reservados 2020</a>
+
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+   

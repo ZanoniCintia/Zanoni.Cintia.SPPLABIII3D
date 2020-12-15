@@ -1,0 +1,5 @@
+method
+El método HTTP que el navegador usa para enviar el formulario. Valores posibles son:
+post: Corresponde al método POST HTTP ; los datos del formulario son incluidos en el cuerpo del formulario y son enviados al servidor.
+get: Corresponde al método GET HTTP; los datos del formulario son adjuntados a la URI del atributo  action , con un '?' como separador,  y la URI resultante es enviada al servidor. Use este método cuando el formulario no tiene efectos secundarios y contiene solo caracteres ASCII.
+Este valor puede ser sobreescrito por un atributo formmethod en un  <button> o elemento <input>.
